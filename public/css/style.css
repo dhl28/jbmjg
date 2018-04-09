@@ -5,7 +5,7 @@ body{
 	color:#333;
 	font-family:tahoma, "΢���ź�";
 	font-size:12px;
-	background:url(../images/bg.png) repeat-x;
+	background:url(/public/imgs/bg.png) repeat-x;
 	text-align:left;
 	}
 
@@ -307,7 +307,7 @@ h6{font-size:48px;}
 	width:577px;
 	height:88px;
 	margin:40px auto;
-	background:url(../images/titbg.jpg) top center no-repeat;
+	background:url(/public/imgs/titbg.jpg) top center no-repeat;
 	}
 	
 .main_tit span{
@@ -516,7 +516,7 @@ h6{font-size:48px;}
 .kefu{
 	height:260px;
 	overflow:hidden;
-	background:url(../images/kfbg.jpg) center bottom no-repeat;
+	background:url(/public/imgs/kfbg.jpg) center bottom no-repeat;
 	}
 	
 .kefu_main{
@@ -532,7 +532,7 @@ h6{font-size:48px;}
 	float:left;
 	overflow:hidden;
 	margin-top:120px;
-	background:url(../images/titbg1.png) left center no-repeat;
+	background:url(/public/imgs/titbg1.png) left center no-repeat;
 	}
 	
 .kfmin_left span{
@@ -632,11 +632,11 @@ h6{font-size:48px;}
 	}
 	
 .bg1{
-	background:url(../images/ys1.jpg) left top no-repeat;
+	background:url(/public/imgs/ys1.jpg) left top no-repeat;
 	}
 	
 .bg2{
-	background:url(../images/ys2.jpg) right top no-repeat;}
+	background:url(/public/imgs/ys2.jpg) right top no-repeat;}
 	
 .ysboxlef{
 	width:613px;
@@ -664,7 +664,7 @@ h6{font-size:48px;}
 .ysboxlef_tit span,.ysboxlef_tit1 span{
 	width:30px;
 	height:36px;
-	background:url(../images/icon.png);
+	background:url(/public/imgs/icon.png);
 	line-height:28px;
 	text-align:center;
 	float:left;
@@ -752,7 +752,7 @@ h6{font-size:48px;}
 	height:480px;
 	margin:40px 0px 30px;
 	overflow:hidden;
-	background:url(../images/gsbg.jpg) no-repeat;
+	background:url(/public/imgs/gsbg.jpg) no-repeat;
 	}
 	
 .gsjj_main{
@@ -960,7 +960,7 @@ h6{font-size:48px;}
 .nlef_tit{
 	width:228px;
 	height:90px;
-	background:url(../images/n_tit.jpg) top left no-repeat;
+	background:url(/public/imgs/n_tit.jpg) top left no-repeat;
 	}
 	
 .nlef_tit a{
@@ -1001,7 +1001,7 @@ h6{font-size:48px;}
 .nlef_main li a{
 	height:34px;
 	line-height:34px;
-	background:url(../images/li.jpg) no-repeat;
+	background:url(/public/imgs/li.jpg) no-repeat;
 	display:block;
 	text-indent:50px;
 	}
@@ -1009,7 +1009,7 @@ h6{font-size:48px;}
 .nlef_main li a:hover{
 	height:34px;
 	line-height:34px;
-	background:url(../images/linow.png) no-repeat;
+	background:url(/public/imgs/linow.png) no-repeat;
 	display:block;
 	text-indent:50px;
 	color:#fff;
@@ -1018,7 +1018,7 @@ h6{font-size:48px;}
 .nlef_bot{
 	width:228px;
 	height:80px;
-	background:url(../images/n_tit_bot.jpg) no-repeat;
+	background:url(/public/imgs/n_tit_bot.jpg) no-repeat;
 	line-height:40px;
 	display:block;
 	margin-top:15px;
@@ -1031,7 +1031,7 @@ h6{font-size:48px;}
 .nlef_bot1{
 	width:228px;
 	height:80px;
-	background:url(../images/n_tit_bot.jpg) no-repeat;
+	background:url(/public/imgs/n_tit_bot.jpg) no-repeat;
 	line-height:40px;
 	display:block;
 	margin-top:15px;
@@ -1193,8 +1193,8 @@ h6{font-size:48px;}
 .ui-banner .ui-banner-slogans li.ui-banner-slogans-current{color:#FFF;}
 .ui-banner .ui-banner-slogans li.ui-banner-slogans-prev{border-bottom:none;}
 .ui-banner .ui-banner-arrow{display:block;width:45px;outline:none;}
-.ui-banner .ui-banner-arrow.ui-banner-arrow-prev{left:-9px;top:100px;background:transparent url("../images/hero-slider-arrow-left.png") no-repeat 0 0;}
-.ui-banner .ui-banner-arrow.ui-banner-arrow-next{left:635px;top:100px;background:transparent url("../images/hero-slider-arrow-right.png") no-repeat 0 0;}
+.ui-banner .ui-banner-arrow.ui-banner-arrow-prev{left:-9px;top:100px;background:transparent url("/public/imgs/hero-slider-arrow-left.png") no-repeat 0 0;}
+.ui-banner .ui-banner-arrow.ui-banner-arrow-next{left:635px;top:100px;background:transparent url("/public/imgs/hero-slider-arrow-right.png") no-repeat 0 0;}
 .ui-banner .ui-banner-arrow.ui-banner-arrow-next img{left:-15px;}
 .ui-banner .ui-banner-overlay{bottom:0;height:10px;position:absolute;right:0;width:173px;}
 
@@ -1234,7 +1234,7 @@ h6{font-size:48px;}
 	-moz-box-shadow:0px 0px 5px #666, 0px 0px 5px #666; 
 	-webkit-box-shadow:0px 0px 5px #666, 0px 0px 5px #666; 
 	box-shadow:0px 0px 5px #666, 0px 0px 5px #666;
-	background:url(../images/content-bg.png);
+	background:url(/public/imgs/content-bg.png);
 	}
 	
 .box1{ width:100%; height:auto;}
