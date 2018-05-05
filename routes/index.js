@@ -8,5 +8,8 @@ router.get('/', function(req, res, next) {
 router.get('/1', function(req, res, next) {
     res.render('1', { title: 'Express' });
 });
+router.get('/2', function(req, res, next) {
+    res.render('2', { title: 'Express' });
+});
 
 module.exports = router;
