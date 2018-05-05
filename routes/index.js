@@ -14,5 +14,8 @@ router.get('/2', function(req, res, next) {
 router.get('/3', function(req, res, next) {
     res.render('3', { title: 'Express' });
 });
+router.get('/4', function(req, res, next) {
+    res.render('4', { title: 'Express' });
+});
 
 module.exports = router;
