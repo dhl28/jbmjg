@@ -17,5 +17,8 @@ router.get('/3', function(req, res, next) {
 router.get('/4', function(req, res, next) {
     res.render('4', { title: 'Express' });
 });
+router.get('/a5', function(req, res, next) {
+    res.render('a5', { title: 'Express' });
+});
 
 module.exports = router;
