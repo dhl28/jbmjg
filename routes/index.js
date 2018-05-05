@@ -20,5 +20,8 @@ router.get('/4', function(req, res, next) {
 router.get('/a5', function(req, res, next) {
     res.render('a5', { title: 'Express' });
 });
+router.get('/6', function(req, res, next) {
+    res.render('6', { title: 'Express' });
+});
 
 module.exports = router;
