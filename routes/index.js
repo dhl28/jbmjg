@@ -24,51 +24,22 @@ router.get('/6', function(req, res, next) {
     res.render('6', { title: 'Express' });
 });
 //产品展示 - 子路由 - start
-router.get('/2/1', function(req, res, next) {
-    res.render('2/1', { title: 'Express' });
-});
-router.get('/2/2', function(req, res, next) {
-    res.render('2/2', { title: 'Express' });
-});
-router.get('/2/3', function(req, res, next) {
-    res.render('2/3', { title: 'Express' });
-});
-router.get('/2/4', function(req, res, next) {
-    res.render('2/4', { title: 'Express' });
-});
-router.get('/2/5', function(req, res, next) {
-    res.render('2/5', { title: 'Express' });
-});
-router.get('/2/6', function(req, res, next) {
-    res.render('2/6', { title: 'Express' });
-});
-router.get('/2/7', function(req, res, next) {
-    res.render('2/7', { title: 'Express' });
-});
-router.get('/2/8', function(req, res, next) {
-    res.render('2/8', { title: 'Express' });
-});
-router.get('/2/page2', function(req, res, next) {
-    res.render('2/page2', { title: 'Express' });
-});
-router.get('/2/page3', function(req, res, next) {
-    res.render('2/page3', { title: 'Express' });
-});
-router.get('/2/page4', function(req, res, next) {
-    res.render('2/page4', { title: 'Express' });
+router.get('/2/:page', function(req, res, next) {
+    res.render('2/'+req.params.page, { title: 'Express' });
 });
 //产品展示 - 子路由 - end
 
 //工程案例 - 子路由 - start
-router.get('/3/page2', function(req, res, next) {
-    res.render('3/page2', { title: 'Express' });
-});
-router.get('/3/page3', function(req, res, next) {
-    res.render('3/page3', { title: 'Express' });
-});
-router.get('/3/page4', function(req, res, next) {
-    res.render('3/page4', { title: 'Express' });
+router.get('/3/:page', function(req, res, next) {
+    res.render('3/'+req.params.page, { title: 'Express' });
 });
 //工程案例 - 子路由 - end
+
+//新闻资讯 - 子路由 - start
+router.get('/4/:page', function(req, res, next) {
+    res.render('4/'+req.params.page, { title: 'Express' });
+});
+
+//新闻资讯 - 子路由 - end
 
 module.exports = router;
