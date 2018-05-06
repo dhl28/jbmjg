@@ -59,5 +59,16 @@ router.get('/2/page4', function(req, res, next) {
 });
 //产品展示 - 子路由 - end
 
+//工程案例 - 子路由 - start
+router.get('/3/page2', function(req, res, next) {
+    res.render('3/page2', { title: 'Express' });
+});
+router.get('/3/page3', function(req, res, next) {
+    res.render('3/page3', { title: 'Express' });
+});
+router.get('/3/page4', function(req, res, next) {
+    res.render('3/page4', { title: 'Express' });
+});
+//工程案例 - 子路由 - end
 
 module.exports = router;
