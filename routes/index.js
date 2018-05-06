@@ -48,6 +48,15 @@ router.get('/2/7', function(req, res, next) {
 router.get('/2/8', function(req, res, next) {
     res.render('2/8', { title: 'Express' });
 });
+router.get('/2/page2', function(req, res, next) {
+    res.render('2/page2', { title: 'Express' });
+});
+router.get('/2/page3', function(req, res, next) {
+    res.render('2/page3', { title: 'Express' });
+});
+router.get('/2/page4', function(req, res, next) {
+    res.render('2/page4', { title: 'Express' });
+});
 //产品展示 - 子路由 - end
 
 
