@@ -10,6 +10,7 @@
  *   http://www.gnu.org/licenses/gpl.html
  */
 $(function(){
+	return;
 	var numpic = $('#slides li').size()-1;
 	var nownow = 0;
 	var inout = 0;
